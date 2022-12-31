@@ -5,13 +5,6 @@ from typing import Optional
 from dotenv import load_dotenv
 
 
-def init_log() -> Optional[int]:
-    if (log_group : = os.environ.get("LOG_GROUP")) is not None:
-        with suppress(ValueError):
-            return int(log_group)
-    return None
-
-
 def init_request_timeout() -> int:
     request_timeout = os.environ.get("REQUEST_TIMEOUT", "30")
     with suppress(ValueError):
