@@ -20,6 +20,6 @@ class Config:
     API_HASH = os.environ["API_HASH"]
     EXEC_PATH = os.environ.get("GOOGLE_CHROME_SHIM", None)
     # OPTIONAL
-    LOG_GROUP = init_log()
+    LOG_GROUP = os.environ["LOG_GROUP"]
     REQUEST_TIMEOUT = init_request_timeout()
     SUPPORT_GROUP_LINK = os.environ.get("SUPPORT_GROUP", "https://t.me/bytessupport")
