@@ -1,0 +1,15 @@
+services:
+  - type: worker
+    name: Web-Screenshot-Bot
+    env: python
+    buildCommand: pip install -r poetry.lock
+    startCommand: python __main__.py
+    repo: https://github.com/sholoomail/Web-Screenshot-Bot.git
+    branch: master
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
