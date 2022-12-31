@@ -2,8 +2,6 @@ import os
 from contextlib import suppress
 from typing import Optional
 
-from dotenv import load_dotenv
-
 
 def init_request_timeout() -> int:
     request_timeout = os.environ.get("REQUEST_TIMEOUT", "30")
