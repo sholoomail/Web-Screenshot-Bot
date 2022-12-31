@@ -3,3 +3,4 @@ cachetools
 git+https://github.com/pyrogram/pyrogram
 Pillow
 git+https://github.com/pyppeteer/pyppeteer@dev
+TgCrypto
