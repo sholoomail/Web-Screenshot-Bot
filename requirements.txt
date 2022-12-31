@@ -1,4 +1,1 @@
-git+https://github.com/alenpaul2001/Web-Screenshot-Bot.git
-cd Web-Screenshot-Bot
-python -m pip install poetry
-poetry install --no-dev && poetry shell
+poetry
