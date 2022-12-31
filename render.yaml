@@ -2,8 +2,7 @@ services:
   - type: worker
     name: Web-Screenshot-Bot
     env: python
-    buildCommand: python -m pip install poetry 
-    poetry install --no-dev && poetry shell
+    buildCommand: python -m pip install poetry : poetry install --no-dev && poetry shell
     startCommand: python __main__.py
     repo: https://github.com/sholoomail/Web-Screenshot-Bot.git
     branch: master
