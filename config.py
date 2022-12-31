@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 def init_log() -> Optional[int]:
-    if (log_group := os.environ.get("LOG_GROUP")) is not None:
+    if (log_group = os.environ.get("LOG_GROUP")) is not None:
         with suppress(ValueError):
             return int(log_group)
     return None
