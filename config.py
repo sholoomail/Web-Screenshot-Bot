@@ -4,10 +4,10 @@ from typing import Optional
 
 
 def init_request_timeout() -> int:
-    request_timeout = os.environ.get("REQUEST_TIMEOUT", "30")
+    request_timeout = os.environ.get("REQUEST_TIMEOUT", "100")
     with suppress(ValueError):
         return int(request_timeout)
-    return 30
+    return 100
 
 
 if os.path.isfile("config.env"):
