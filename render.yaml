@@ -13,7 +13,7 @@ services:
         sync: false
       - key: API_HASH 
         sync: false
-      - key: API_HASH 
+      - key: LOG_GROUP 
         sync: false
       - key: PYTHON_VERSION 
         value: 3.9.2
