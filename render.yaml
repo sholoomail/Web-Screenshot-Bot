@@ -15,5 +15,5 @@ services:
         sync: false
       - key: API_HASH 
         sync: false
-      - key: API_HASH 
+      - key: PYTHON_VERSION 
         value: 3.9.2
