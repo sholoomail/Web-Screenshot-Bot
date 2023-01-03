@@ -4,4 +4,4 @@ git+https://github.com/pyrogram/pyrogram
 Pillow
 git+https://github.com/pyppeteer/pyppeteer@dev
 TgCrypto
-heroku-buildpack-google-chrome
+git+https://github.com/mandarvaze/chrome-on-docker
