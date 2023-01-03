@@ -4,4 +4,3 @@ git+https://github.com/pyrogram/pyrogram
 Pillow
 git+https://github.com/pyppeteer/pyppeteer@dev
 TgCrypto
-git+https://gist.github.com/BigAlRender/41f4c4d87df3e25770e3db8db728443e
